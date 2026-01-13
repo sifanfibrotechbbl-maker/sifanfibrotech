@@ -1,0 +1,105 @@
+@media screen and (max-width: 516px){
+    .about-it{
+        font-size: 16px;
+    }
+
+    .box h2{
+        font-size: 25px;
+    }
+
+    .elect-box h1{
+        font-size: 30px;
+    }
+
+    .box1-img{
+        height: 100px;
+    }
+}
+
+header{
+    box-shadow:  0px 0px 10px black;
+}
+
+main{
+    font-family: "Roboto", sans-serif;
+}
+
+.elect-box{
+    padding-bottom: 30px;
+    max-width: 95vw;
+    margin: auto;
+}
+
+.elect-box h1{
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.about-box{
+    width: 95vw;
+    margin: auto;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 8px;
+}
+
+.box-cont{
+    padding-top: 30px;
+    padding-left: 12px;
+    padding-bottom: 25px;
+}
+
+.box-img{
+    display: flex;
+    overflow: auto;
+}
+
+.box-img .box1-img{
+    height: 150px;
+    margin: 10px;
+    border:5px solid gray;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 8px;
+}
+
+.box{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.box h2{
+    padding-bottom: 20px;
+}
+
+.ol{
+    padding-left: 15px;
+}
+
+.about-it p{
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+.box-cont .ul1{
+    padding-left: 30px;
+}
+
+.box-cont .ul2{
+    padding-bottom: 15px;
+}
+
+.box-cont .ol1{
+    padding-left: 45px;
+}
+
+.p-para{
+    padding-left: 15px;
+}
+
+.p-para1{
+    padding-left: 25px;
+}
+
+.strong{
+    padding-left: 25px;
+}

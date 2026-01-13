@@ -1,0 +1,58 @@
+@media screen and (max-width: 1129px){
+    iframe{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .abt{
+        flex-direction: column;
+    }
+
+    .locate{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 585px){
+    iframe{
+        width: 300px;
+        height: 250px;
+    }
+
+    .locate{
+        font-size: 13px;
+    }
+}
+
+main{
+    font-family: "Roboto", sans-serif;
+}
+
+.abt-contact{
+    padding: 12px;
+    margin: auto;
+    max-width: 95vw;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 8px;
+    background-color: rgb(244, 244, 244);
+}
+
+.locate{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    line-height: 1.6;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.abt{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+iframe{
+    border-radius: 20px;
+}
