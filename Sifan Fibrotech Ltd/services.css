@@ -1,0 +1,70 @@
+@media screen and (max-width: 516px){
+    .p-class, ol, .semi-10{
+        font-size: 15px;
+    }
+}
+
+main{
+    font-family: "Roboto", sans-serif;
+}
+
+.about-serv{
+    max-width: 95vw;
+    margin: auto;
+    box-shadow: 0px 0px 9px black;
+    border-radius: 8px;
+}
+
+.serv{
+    padding: 12px;
+    line-height: 1.6em;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.serv h2{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.serv-note{
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.serv-note .p-class{
+    margin-top: 30px;
+}
+
+.serv-note h3{
+    margin-top: 20px;
+}
+
+.serv-note ol{
+    position: relative;
+    left: 10px;
+}
+
+.serv-note p{
+    margin-top: 10px;
+}
+
+.semi-10{
+    display: flex;
+    flex-direction: column;
+    list-style:disc;
+    position: relative;
+    left: 10px;
+}
+
+.semi-10-siuuuu{
+    font-weight: normal;
+}
+
+.semi-10 .semi-10-siuuuu:hover{
+    width: 15vw;
+    background-color:rgb(244, 244, 244);
+    scale: 1;
+    animation: none;
+    cursor: pointer;
+}
