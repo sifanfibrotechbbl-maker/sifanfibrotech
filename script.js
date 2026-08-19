@@ -1,7 +1,9 @@
-/*SIFAN FIBROTECH */
+/* SIFAN FIBROTECH */
 
 
-/* COMPANY INFORMATION */
+/* =========================================
+   COMPANY INFORMATION
+========================================= */
 
 const COMPANY = {
 
@@ -19,7 +21,9 @@ const COMPANY = {
 };
 
 
-/* KNOWLEDGE */
+/* =========================================
+   KNOWLEDGE
+========================================= */
 
 const answers = {
 
@@ -242,6 +246,7 @@ Our services include:
 • FRP Tank Lining
 • Factory Lining
 • Custom FRP Manufacturing
+• Epoxy Flooring
 • Decorative Epoxy Applications
 
 Which service do you need?
@@ -268,7 +273,9 @@ For exact directions or a visit, please contact our team.
 };
 
 
-/* QUESTION KEYWORDS*/
+/* =========================================
+   QUESTION KEYWORDS
+========================================= */
 
 const questions = [
 
@@ -384,6 +391,18 @@ What are you looking for?
 
         answer:
             answers.decorative
+    },
+
+
+    {
+        keywords: [
+            "epoxy flooring",
+            "epoxy floor",
+            "flooring"
+        ],
+
+        answer:
+            answers.epoxyFlooring
     },
 
 
@@ -798,7 +817,9 @@ function sendToBot(
 }
 
 
-/* FORM SUBMIT*/
+/* =========================================
+   FORM SUBMIT
+========================================= */
 
 form.addEventListener(
     "submit",
@@ -835,7 +856,9 @@ form.addEventListener(
 );
 
 
-/* BUTTONS */
+/* =========================================
+   QUICK BUTTONS
+========================================= */
 
 const quickButtons =
     document.querySelectorAll(
@@ -871,7 +894,9 @@ quickButtons.forEach(
 );
 
 
-/* WHATSAPP BUTTON */
+/* =========================================
+   WHATSAPP BUTTON
+========================================= */
 
 const whatsapp =
     document.getElementById(
