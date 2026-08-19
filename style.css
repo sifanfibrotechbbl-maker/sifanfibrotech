@@ -324,10 +324,6 @@ footer {
     font-size: 0.9rem;
 }
 
-iframe{
-    border-radius: 20px;
-}
-
 /* --- RESPONSIVE MEDIA QUERIES --- */
 @media (max-width: 768px) {
     .hamburger {
@@ -389,9 +385,5 @@ iframe{
     .hero-content h1 {
         font-size: 2rem;
     }
-
-    iframe{
-        height: 350px;
-        width: 300px;
-    }
+    
 }
