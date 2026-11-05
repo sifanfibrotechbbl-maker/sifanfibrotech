@@ -137,10 +137,10 @@ nav {
     font-size: 20px;
 }
 
-/* .col{
+.col{
     color: rgb(5, 36, 177);
     text-shadow:2px 2px 8px rgb(255, 255, 255);
-} */
+}
 
 .hero-content h1 {
     font-size: 3rem;
@@ -168,10 +168,10 @@ nav {
     background-color: #e0e0e0;
 }
 
-/* .brand {
+.brand {
     color: rgb(20, 20, 20);
     text-shadow: 2px 2px 15px rgb(248, 247, 247);
-} */
+}
 
 /* --- ABOUT SECTION --- */
 .section {
